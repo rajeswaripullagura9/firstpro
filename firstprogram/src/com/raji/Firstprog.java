@@ -3,6 +3,7 @@ package com.raji;
 public class Firstprog {
 int a=9;
 int b=8;
+int c=4;
 
 public void show() {
 	int a=3;
@@ -14,5 +15,8 @@ public void show() {
 public static void main(String[] args) {
 	Firstprog firstprog = new Firstprog();
 	System.out.println(firstprog.a);
+	System.out.println(firstprog.b);
+	System.out.println(firstprog.c);
+	firstprog.show();
 }
 }
