@@ -4,10 +4,11 @@ public class Firstprog {
 int a=9;
 int b=8;
 int c=4;
-
+static int g=99;
 public void show() {
 	int a=3;
 	int b=44;
+	
 	System.out.println(a+b);
 	System.out.println(a-b);
 	System.out.println(a/b);
@@ -21,5 +22,6 @@ public static void main(String[] args) {
 	System.out.println(firstprog.b);
 	System.out.println(firstprog.c);
 	firstprog.show();
+	System.out.println(g);
 }
 }
