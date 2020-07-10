@@ -9,6 +9,9 @@ public void show() {
 	int a=3;
 	int b=44;
 	System.out.println(a+b);
+	System.out.println(a-b);
+	System.out.println(a/b);
+	System.out.println(a%b);
 }
 
 
