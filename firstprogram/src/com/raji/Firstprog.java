@@ -1,27 +1,33 @@
 package com.raji;
 
 public class Firstprog {
-int a=9;
-int b=8;
-int c=4;
-static int g=99;
-public void show() {
-	int a=3;
-	int b=44;
-	
-	System.out.println(a+b);
-	System.out.println(a-b);
-	System.out.println(a/b);
-	System.out.println(a%b);
-}
+	 int rollno;
+	String stu_name; // instance variables
+	static String clg_name = "SVCE"; // ststic variable
 
+	// constructor without parameters
+	public Firstprog() {
+		
+		  rollno=9; stu_name="raji";
+		  
+		  //Constuctor with Parameters
+		/*  
+		 * public Firstprog(int r, String s) {
+		 * 
+		 * rollno = r; stu_name = s; }
+		 */
+	}
 
-public static void main(String[] args) {
-	Firstprog firstprog = new Firstprog();
-	System.out.println(firstprog.a);
-	System.out.println(firstprog.b);
-	System.out.println(firstprog.c);
-	firstprog.show();
-	System.out.println(g);
-}
+	void results() {
+		String msg = "marksheet";  //Local Variable
+		System.out.println(msg + " " + rollno + " " + stu_name + " " + clg_name);
+
+	}
+
+	public static void main(String[] args) {
+		Firstprog firstprog = new Firstprog();
+		firstprog.results();
+		
+		 
+	}
 }
