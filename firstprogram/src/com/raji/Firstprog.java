@@ -18,7 +18,7 @@ public class Firstprog {
 		 */
 	}
 
-	void results() {
+	public void results() {
 		String msg = "marksheet";  //Local Variable
 		System.out.println(msg + " " + rollno + " " + stu_name + " " + clg_name);
 
